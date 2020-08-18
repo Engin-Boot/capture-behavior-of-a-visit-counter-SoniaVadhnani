@@ -2,16 +2,18 @@
 
 ## Scenario: Show patient visits during working days and holidays
 
-Given - Entry-card issuer as Sensor
+Given - Entry-card issuer as Sensor is working efficiently
 
-When - Issue a new patient card to the patient
+When - A new patient enters in the hospital
 
-Then - Increment the patient count that day
+Then - Issue a patient entry-card to the patient and
+increment patient-count for that day
 
 ## Scenario: Compute parking slots to reserve for visiting specialists
 
-Given - Entry-card issuer as Sensor
+Given - A schedule for specialists visiting
 
-When - Issue a new Specialist card to the specialist
+When - we know a specialist is visiting on
+that day
 
-Then - Increment the specialist count that day
+Then - Reserve a parking slot for the specialist
