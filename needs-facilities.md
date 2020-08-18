@@ -4,7 +4,7 @@
 
 Given - The data of the visitor-count per day
   
-When - The week ends or any request is made
+When - The week ends or any request is there
 regarding weekly data of visitors
   
 Then - Compute the average of visitor
