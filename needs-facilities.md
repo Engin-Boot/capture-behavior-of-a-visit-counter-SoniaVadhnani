@@ -17,5 +17,5 @@ number of visitors entered in the hospital
 
 When - The number of visitors equals the seating capacity
 
-Then - An alert is send tu the facility
+Then - An alert is send to the facility
 manager that seating capacity is full.
