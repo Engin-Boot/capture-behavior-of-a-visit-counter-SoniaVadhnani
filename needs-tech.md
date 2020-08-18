@@ -1,14 +1,19 @@
 # Visit-counter technical needs
 
-Scenario: Recover across restarts of the server
-that runs the visit-counter
+## Scenario: Recover across restarts of the server that runs the visit-counter
 
-  Given
-  When
-  Then
+Given - Sensor is working efficiently
 
-Scenario: Reconcile counts if the sensor is offline for a while
+When - the server restarts
 
-  Given
-  When
-  Then
+Then - it continues with the previous visiter-count
+
+## Scenario: Reconcile counts if the sensor is offline for a while
+
+Given - Sensor is working efficiently
+
+When - the server is offline
+
+Then - someone counts the visitor and adds
+the number to previous count at server and
+update the server manually.
