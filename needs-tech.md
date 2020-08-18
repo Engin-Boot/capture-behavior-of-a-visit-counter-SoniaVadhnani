@@ -6,7 +6,7 @@ Given - Sensor is working efficiently
 
 When - the server restarts
 
-Then - it continues with the previous visiter-count
+Then - it continues with the previous visitor-count
 
 ## Scenario: Reconcile counts if the sensor is offline for a while
 
