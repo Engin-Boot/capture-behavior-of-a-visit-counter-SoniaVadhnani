@@ -4,7 +4,7 @@
 
 Given - Entry-card issuer as Sensor
 
-When - Any new patient card is issued
+When - Issue a new patient card to the patient
 
 Then - Increment the patient count that day
 
@@ -12,6 +12,6 @@ Then - Increment the patient count that day
 
 Given - Entry-card issuer as Sensor
 
-When - Any new specialist card is issued
+When - Issue a new Specialist card to the specialist
 
 Then - Increment the specialist count that day
