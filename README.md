@@ -33,7 +33,3 @@ Capture each scenario as:
 - initial condition (Given...)
 - event (When...)
 - effect (Then...)
-
-Place features given to each stakeholder in the corresponding file.
-
-As always, avoid passive voice :)
